@@ -1,0 +1,28 @@
+# Core
+streamlit==1.28.0
+numpy==1.26.5
+pandas==2.1.1
+
+# Embeddings & Transformers
+sentence-transformers==2.2.2
+transformers==4.43.0
+torch==2.1.0+cpu
+torchaudio==2.1.0+cpu
+
+# Vector DB
+faiss-cpu==1.7.4
+
+# Document parsing
+python-docx==0.8.11
+PyMuPDF==1.22.5
+
+# OCR (optional)
+pytesseract==0.3.12
+Pillow==10.1.0
+
+# Utilities
+tqdm==4.66.1
+
+# torch and torchaudio are CPU-only versions (+cpu) to avoid GPU requirements.
+# OCR support (pytesseract) is optional but required if you want scanned PDFs.
+# PyMuPDF handles PDFs, python-docx handles DOCX files.
